@@ -1,0 +1,567 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+html,body{
+    
+	height: 100%;
+}
+.header{
+	max-width: 1280px;
+	margin: 0 auto;
+	width: 100%;
+}
+.header{
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+
+}
+.logo{
+	padding:0 3%;
+	margin: 2%;
+}
+.container-menu{
+margin: 0 8%;
+}
+ul{
+   display: flex;
+
+   }
+
+li{
+   list-style: none;
+   margin:2%;
+   padding:3%;
+
+   }
+
+li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	}
+
+.content-slog{
+
+	position: relative;
+	top:-600px;
+    padding:2px 50px;
+    margin:1px 6px;
+    max-width: 300px;
+
+}
+.content-slog:nth-of-type(2){
+  margin:0 -10px;
+
+}
+.content-slog:nth-of-type(3){
+  margin:0 -15px;
+
+}
+
+.content-slog:nth-of-type(4){
+  margin:0 -30px;
+
+}
+.content-slog p{
+     color:white;
+     text-align: center;
+     position: relative;
+     top: -40px;
+    right:25px;
+    margin:0 6%;
+
+
+}
+.container{
+	width: 100%;
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+.text-banner{
+	padding:70px;
+}
+section.banner{
+	overflow:hidden;
+	width: 100%;
+	height: 650px;
+	background-color: black;
+	background-image: url('../imagens/sport.jpg');
+	background-size: contain;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+}
+
+.text-banner-single{
+	width: 314px;
+	font-style: italic;
+	margin-top:30px;
+	height: 70px;
+	line-height: 70px;
+	padding-left: 50px;
+	text-transform: uppercase;
+	color: white;
+	font-size: 23px;
+	background-image: url('../imagens/box-text.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.text-banner .text-banner-single:nth-of-type(2){
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+	left: -10px;
+}
+
+.text-banner .text-banner-single:nth-of-type(3){
+	width: 170px;
+	height: 70px;
+	line-height: 70px;
+	position: relative;
+	left: -20px;
+}
+
+.text-banner .text-banner-single:nth-of-type(4){
+	width: 320px;
+	font-size: 21px;
+	color: black;
+	position: relative;
+	left: -30px;
+	line-height: 70px;
+	background-image: url('../imagens/box-white-text.png');
+}
+
+section.veiculos-destaque{
+	padding:90px 2%;
+}
+
+.line-horizontal {
+
+}
+.line-baixo1{
+	position: relative;
+	right:270px;
+	top:-43px;
+	border:1px solid #b5b3b3;
+	max-width: 600px;
+	margin:0 auto;
+	width: 270px;
+	height: 2px
+	padding:0 40px;
+}
+
+.line-baixo2{
+	position:relative;
+	left:270px;
+	top:-43px;
+	border:1px solid #b5b3b3;
+	max-width: 600px;
+	margin:0 auto;
+	width: 270px;
+	height: 2px
+	padding:0 40px;
+}
+
+.line-titulo{
+	max-width: 800px;
+	margin:0 auto;
+	position: relative;
+	text-align: center;
+}
+.veiculos-destaques p{
+    text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin:30px 0;
+}
+
+.veiculos-destaques{
+max-width: 600px;
+margin:0 auto;
+width: 100%;
+}
+
+
+.container-vetrine{
+max-width: 1400px;
+margin: 0 auto;
+padding:0 6%;
+width: 100%;
+
+}
+.container-vetrine{
+	display: flex;
+	
+}
+.carro1{
+	margin:0 1%;
+	width: 350px;
+	margin-top:30px;
+	height: 214px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/bg.jpg');
+}
+.subcarro1{
+     position: relative;
+     top:250px;
+     border-radius: 4px;
+     border-bottom: 2px solid tomato;
+	height:25px;
+	width: 350px;
+	background:red; 
+}
+.subcarro1 p{
+ color: white;
+ text-align: center;
+ line-height: 25px;
+
+}
+.carro2{
+	margin: 0 1%;
+	width: 350px;
+	margin-top:30px;
+	height: 214px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/car1.jpg');
+}
+.carro3{
+	margin:0 1%;
+	width: 350px;
+	margin-top:30px;
+	height: 214px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/car2.jpg');
+}
+
+.control{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+
+}
+
+.control{
+max-width: 1400px;
+max-height: 300px;	
+}
+.container-lista1{
+	width: 100%;
+	margin: 120px 0;
+	max-height: 800px;
+	color: white;
+	z-index:2;
+	background:#383636; 
+}
+.container-lista1 p{
+
+	padding: 8px 20px;
+	margin:6px 20px;
+}
+.container-lista2{
+width:100%;
+margin: 120px 0;
+max-height: 800px;
+height: 300px;
+color: white;
+background:#331f3d; 
+z-index:2;
+}
+
+.container-lista1 h1{
+text-transform: uppercase;
+text-align: center;
+margin: 5px 0;
+padding:6px 0;
+
+}
+
+.container-lista2 h2{
+text-transform: uppercase;
+text-align: center;
+margin: 5px;
+padding:6px;
+
+}
+.container-lista2 p{
+text-align: justify-all;
+margin: 5px;
+padding:6px;
+
+}
+
+	
+
+.container-fundo{
+    background:#ebebeb; 
+   width: 100%;
+    margin:0 auto;
+    padding:0 20px;
+
+	}
+	
+	.text{
+		
+		padding: 10px;
+        margin: 0 20px; 
+		height: 300px;
+		width: 300px;
+
+		
+	}
+	 h1{
+	 	text-transform: uppercase;
+         font-size: 20px;
+         text-align: center;
+	}
+
+ .container-text .text h2{
+    text-transform: uppercase;
+ 	margin-top: 10px;
+ 	
+ 	padding: 5px;
+ }
+.container-text .text p{
+    padding:0 2%;
+	margin-top: 12px;
+	text-align: justify-all;
+}
+.container-contatos-fundo{
+ width: 100%;
+ height: 500px;
+	
+}
+
+.container-contato{
+max-width: 800px;
+padding: 6% 12%;
+margin:0 auto;
+text-align: center;
+
+}
+ h2{
+padding:1% 2%;
+text-transform: uppercase;
+text-align: center;
+
+}
+
+span{
+	text-transform: uppercase;
+	
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+	margin:50px 1px;
+	border: 0;
+	border-radius: 3px;
+} 
+.container-form-nome input[type="text"]{
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+	margin: 2px;
+	outline: none;
+	border:0;
+	border-radius: 3px;
+}
+.container-form {
+	
+	width:100%;
+	height: 30px;
+   max-width: 800px;
+	    
+}
+.email{
+	width:100%;
+	height: 30px;
+	padding: 10px;
+	margin:3px;
+	border: 0;
+	border-radius: 3px;
+}
+
+.telemovel{
+	border-radius: 3px;
+	border:0;
+	width:100%;
+	height: 30px;
+	padding: 10px;
+	margin:20px 4px;
+}
+.container-contatos-fundo .container-contato h2{
+    padding-top: 90px;
+	text-align: center;
+}
+
+.container-contato .container-form-nome span{
+	position: relative;
+	right:200px; 
+	margin-right:120px;
+	padding-right: 60px;
+	top: 25px;
+}
+.container-form span{
+    position: relative;
+	right:200px; 
+	margin-right:120px;
+	padding-right: 60px;
+	top: 25px;
+
+}
+.container-form .container-telemovel{
+    position: relative;
+	right:200px; 
+	margin-right:125px;
+	padding-right: 60px;
+	top:40px;
+}
+.container-mensagem{
+
+position: relative;
+	right:200px; 
+	margin-right:125px;
+	padding-right: 60px;
+	top:50px;
+}
+.container-btn{
+width: 100%;
+height: 50px;
+border-radius: 12px;
+border:0;
+background:#560187;
+cursor: pointer;
+}
+.container-btn:hover{
+	background: #81338a;
+}
+
+.container-contatos-fundo{
+	background:#b5adba;
+}
+.container-contato{
+	background: #b5adba;
+}
+@media screen and (max-width:1100px){
+	
+
+.container-vetrine{
+max-width: 1400px;
+margin: 0 auto;
+padding:0 6%;
+width: 100%;
+
+}
+.container-vetrine{
+	display: flex;
+	flex-wrap: wrap;
+}
+.carro1{
+	margin:0 1%;
+	width: 500px;
+	margin-top:100px;
+	height: 250px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/bg.jpg');
+}
+.subcarro1{
+     position: relative;
+     top:250px;
+     border-radius: 4px;
+     border-bottom: 2px solid tomato;
+	height:25px;
+	width: 500px;
+	background:red; 
+}
+.subcarro1 p{
+ color: white;
+ text-align: center;
+ line-height: 25px;
+
+}
+.carro2{
+	margin: 0 1%;
+	width: 500px;
+	margin-top:100px;
+	height: 250px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/car1.jpg');
+}
+.carro3{
+	margin:0 1%;
+	width: 500px;
+	margin-top:100px;
+	height: 250px;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-image: url('../imagens/car2.jpg');
+}
+
+
+
+.content-slog{
+
+	position:absolute;
+	top:150px;
+	left: 100px;
+    padding:30px 50px;
+    margin:20px 6px;
+    max-width: 300px;
+
+}
+.content-slog:nth-of-type(1){
+  margin:-20px -10px;
+
+}
+
+.content-slog:nth-of-type(2){
+  margin:85px -10px;
+
+}
+.content-slog:nth-of-type(3){
+  margin:190px -15px;
+
+}
+
+.content-slog:nth-of-type(4){
+  margin:290px -30px;
+
+
+}
+	}
+
+@media screen and (max-width:768px){
+	
+
+.container-banner img{
+				margin-bottom: -10px;
+				padding: 30px 0;
+				}
+   
+.logo{
+	position: relative;
+	padding:10px 0;
+	margin:20px 0;
+	text-align: center;
+    }
+
+.header{
+   display: block;
+   }
+
+
+
+}

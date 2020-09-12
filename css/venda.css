@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+
+}
+
+html,body{
+    
+	height: 100%;
+}
+.header{
+	max-width: 1280px;
+	margin: 0 auto;
+	width: 100%;
+}
+.header{
+display: flex;
+background:#293c59;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo{
+	padding:0 3%;
+	margin: 2%;
+}
+.container-menu{
+margin: 0 8%;
+}
+ul{
+   display: flex;
+ 
+   }
+
+li{
+   list-style: none;
+   margin:2%;
+   padding:3%;
+ 
+   }
+
+li a{
+	text-transform: uppercase;
+	text-decoration: none;
+   color: white;
+	}
+
+
+}
+.veiculos-destaques{
+  padding:90px 0;
+  margin:50px 0;
+  background: red;
+  max-width: 600px;
+}
+
+
+.line-baixo1{
+  position: relative;
+  right:270px;
+  top:-130px;
+  border:1px solid #b5b3b3;
+  max-width: 600px;
+  margin:0 auto;
+  width: 270px;
+  height: 2px
+  padding:0 40px;
+}
+
+.line-baixo2{
+  position:relative;
+  left:270px;
+  top:-130px;
+  border:1px solid #b5b3b3;
+  max-width: 600px;
+  margin:0 auto;
+  width: 270px;
+  height: 2px
+  padding:0 40px;
+}
+
+.line-titulo{
+  max-width: 800px;
+  margin:0 auto;
+  position: relative;
+  text-align: center;
+}
+.veiculos-destaques p{
+    text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin:30px 0;
+  padding: 90px 0;
+  width: 100%;
+}
+
+.veiculos-destaques{
+max-width: 600px;
+margin:0 auto;
+width: 100%;
+}
+
+
+.container-vetrine{
+max-width: 1400px;
+margin: 0 auto;
+padding:0 6%;
+width: 100%;
+
+}
+
+.container-pesquisa p{
+
+font-weight:bold;
+font-size: 27px;
+position: relative;
+top:-10px;
+padding:0 39px; 
+
+}
+
+.container-pesquisa .serch{
+
+  height:20px;
+  width: 230px;
+  position: relative;
+  padding:2px 10px; 
+  left: -60px;
+  margin:5px 100px;
+  border-radius: 12px;
+  border:1px solid #a9afb8;
+}
+
+.dentro{
+  position:absolute;
+  background: red;
+  height: 20px;
+  width: 60px;
+  top:-1px;
+  left:0;
+  border-radius:12px;
+  cursor: pointer;
+}
+ .valores .valor1{
+font-size: 15px;
+padding:3px 40px;
+}
+.valores .valores2{
+font-size: 15px;
+padding:30px 210px;
+margin:-50px 4px;
+
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+.container input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.container-valor{
+  max-width: 600px;
+ position: relative;
+ left: 30px;
+ top:50px;
+
+}
+.container-valor span{
+margin:2px 0;
+padding:2px 0;
+}
+
+.container-valor h1{
+margin:15px 0;
+}
+
+.car{
+
+ display: grid;
+grid-template-columns:repeat(3, 1fr);
+   margin:0 auto;
+   max-width: 800px;
+  
+}
+
+.car{
+
+ position: relative;
+ top:-270px;
+ left: 20px;
+
+}
+.car1{
+
+  height: 200px;
+  width: 300px;
+  background: red;
+}
+
+.car2{
+  height: 200px;
+  width: 300px;
+  background: yellow;
+}
+
+.car3{
+  height: 200px;
+  width: 300px;
+  background: blue;
+}
+
+.car4{
+  height: 200px;
+  width: 300px;
+  background: tomato;
+}
+
+.car5{
+  height: 200px;
+  width: 300px;
+  background: green;
+}
+
+.car6{
+  height: 200px;
+  width: 300px;
+  background: pink;
+}
+button{
+ height: 30px;
+  width: 300px;
+  border: 0;
+  border-radius: 12px;
+  background:tomato;
+  color:white;
+  margin: 10px 0;
+  cursor:pointer;
+}
+.container-car1{
+  margin:0 3px;
+}
+@media screen and (max-width:768px){
+  
+
+.container-banner img{
+        margin-bottom: -10px;
+        padding: 30px 0;
+        }
+   
+.logo{
+  position: relative;
+  padding:10px 0;
+  margin:20px 0;
+  text-align: center;
+    }
+
+.header{
+   display: block;
+   }
+
+
+
+}
